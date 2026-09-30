@@ -1,107 +1,97 @@
 #!/usr/bin/env python3
 """
 Convert loadouts_raw.txt to operators_clean.json
-Format expected in loadouts_raw.txt:
-attackers:
-Operator
-Primary
-Alternative
-Secondary
-Gadget
-OperatorName
-Weapon: attachments
-Weapon: attachments
-Weapon: attachments
-Gadget line
-...
-defenders:
-...
+Removes 'laser' from all weapon attachments and parses attackers/defenders correctly.
 """
-import re, json, sys
+import re, json, argparse
 
-def clean_atts(s):
-    if not s:
+def clean_attachments(attach):
+    if not attach:
         return ''
-    s = re.sub(r'(?i)\blaser\b', '', s)
-    s = re.sub(r'\s*;\s*', '; ', s)
-    s = re.sub(r'\s+', ' ', s).strip(' ;')
-    return s
+    # split on ; and ,
+    parts = re.split(r'[;,]', attach)
+    cleaned = []
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        # remove laser word
+        if re.search(r'laser', p, re.I):
+            p2 = re.sub(r'\blaser\b', '', p, flags=re.I)
+            p2 = re.sub(r'\s+', ' ', p2).strip(' ,;')
+            if p2.lower() in ['no', 'no ']:
+                continue
+            if p2:
+                cleaned.append(p2)
+            continue
+        cleaned.append(p)
+    return '; '.join(cleaned)
+
+def parse_weapon(raw):
+    if not raw or raw.strip() == '-':
+        return None
+    if ':' in raw:
+        w, a = raw.split(':', 1)
+        return {'weapon': w.strip(), 'attachments': clean_attachments(a.strip())}
+    # no colon, return as weapon name only
+    return {'weapon': raw.strip(), 'attachments': ''}
+
+def parse_section(lines, start_idx, end_idx):
+    ops = []
+    i = start_idx
+    # skip section header lines
+    while i < end_idx:
+        name = lines[i]
+        if name.lower() in ['operator','primary','alternative','secondary','gadget']:
+            i += 1
+            continue
+        if name.lower().endswith(':'):
+            i += 1
+            continue
+        # assume operator name
+        # collect next 4 entries
+        entries = []
+        j = i + 1
+        count = 0
+        while j < end_idx and count < 4:
+            cand = lines[j]
+            # stop if we hit a header
+            if cand.lower() in ['operator','primary','alternative','secondary','gadget'] or cand.lower().endswith(':'):
+                break
+            entries.append(cand)
+            j += 1
+            count += 1
+        if len(entries) < 4:
+            i += 1
+            continue
+        op = {
+            'id': re.sub(r'[^a-z0-9]+', '', name.lower()),
+            'name': name,
+            'primary': parse_weapon(entries[0]),
+            'alternative': parse_weapon(entries[1]),
+            'secondary': parse_weapon(entries[2]),
+            'gadgets': [g.strip() for g in re.split(r'[+,]', entries[3]) if g.strip()]
+        }
+        ops.append(op)
+        i = j
+    return ops
 
 def parse_file(path):
     with open(path, 'r', encoding='utf-8') as f:
-        lines = [l.rstrip() for l in f.readlines()]
-    
-    operators = {'attackers': [], 'defenders': []}
-    role = None
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        low = line.lower()
-        if low.startswith('attackers:'):
-            role = 'attackers'
-            i += 1
-            continue
-        if low.startswith('defenders:'):
-            role = 'defenders'
-            i += 1
-            continue
-        if not line or low in ['operator','primary','alternative','secondary','gadget']:
-            i += 1
-            continue
-        # operator name: line without ':' and next line contains ':'
-        if ':' not in line and i+1 < len(lines) and ':' in lines[i+1]:
-            name = line
-            # skip to next 4 lines
-            primary = None
-            alternative = None
-            secondary = None
-            gadget = None
-            j = i+1
-            # read up to 4 blocks
-            count = 0
-            while j < len(lines) and count < 4:
-                l = lines[j].strip()
-                if not l:
-                    j += 1
-                    continue
-                # weapon line
-                if ':' in l:
-                    weapon, atts = l.split(':',1)
-                    weapon = weapon.strip()
-                    atts = clean_atts(atts)
-                    if count == 0:
-                        primary = {'weapon': weapon, 'attachments': atts}
-                    elif count == 1:
-                        if l.strip() == '-':
-                            alternative = None
-                        else:
-                            alternative = {'weapon': weapon, 'attachments': atts}
-                    elif count == 2:
-                        secondary = {'weapon': weapon, 'attachments': atts}
-                    count += 1
-                    j += 1
-                else:
-                    # gadget line
-                    gadget = l
-                    j += 1
-                    break
-            # consume remaining
-            i = j
-            op = {
-                'id': re.sub(r'[^a-z0-9]+','', name.lower()),
-                'name': name,
-                'primary': primary,
-                'alternative': alternative,
-                'secondary': secondary,
-                'gadgets': [g.strip() for g in re.split(r'[+,]', gadget or '') if g.strip()] if gadget else []
-            }
-            operators[role].append(op)
-            continue
-        i += 1
-    return operators
+        raw = f.read()
+    filtered = [l.strip() for l in raw.splitlines() if l.strip()!='']
+    # find sections
+    try:
+        attackers_start = filtered.index('attackers:')
+        defenders_start = filtered.index('defenders:')
+    except ValueError:
+        attackers_start = 0
+        defenders_start = len(filtered)
+    attackers = parse_section(filtered, attackers_start, defenders_start)
+    defenders = parse_section(filtered, defenders_start, len(filtered))
+    return {'attackers': attackers, 'defenders': defenders}
 
 if __name__ == '__main__':
-    import argparse
     p = argparse.ArgumentParser()
     p.add_argument('--in', dest='inp', default='loadouts_raw.txt')
     p.add_argument('--out', dest='out', default='operators_clean.json')

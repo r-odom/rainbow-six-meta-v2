@@ -1,0 +1,545 @@
+{
+  "attackers": [
+    {
+      "name": "Striker",
+      "primary": "M4: Magnified scope; flash hider; vertical grip",
+      "alternative": "SR-25: Magnified scope; muzzle brake; horizontal grip",
+      "secondary": "ITA12S: Iron sight",
+      "gadget": "Frag grenades + flashbangs"
+    },
+    {
+      "name": "Sledge",
+      "primary": "L85: Magnified scope; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "Reaper: Muzzle brake",
+      "gadget": "Frag grenades"
+    },
+    {
+      "name": "Thatcher",
+      "primary": "L85: Magnified scope; flash hider; vertical grip",
+      "alternative": "PMR DMR: Magnified scope; muzzle brake; horizontal grip",
+      "secondary": "P226: Muzzle brake",
+      "gadget": "Claymores"
+    },
+    {
+      "name": "Ash",
+      "primary": "R4-C: Magnified scope; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "5.7: Muzzle brake",
+      "gadget": "Claymores"
+    },
+    {
+      "name": "Thermite",
+      "primary": "556XI: Magnified scope; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "ITA12S: Iron sight",
+      "gadget": "Flashbangs"
+    },
+    {
+      "name": "Twitch",
+      "primary": "417: Magnified scope; muzzle brake; horizontal grip",
+      "alternative": "F2: Magnified scope; flash hider; vertical grip",
+      "secondary": "P9: Muzzle brake",
+      "gadget": "Smoke grenades"
+    },
+    {
+      "name": "Montagne",
+      "primary": "Shield: No primary attachments",
+      "alternative": "-",
+      "secondary": "P9",
+      "gadget": "Smoke grenades"
+    },
+    {
+      "name": "Glaz",
+      "primary": "OTs-03: Red Dot C/Thermal reticle; muzzle brake; vertical grip",
+      "alternative": "-",
+      "secondary": "Bearing-9: Holo; flash hider",
+      "gadget": "Smoke grenades"
+    },
+    {
+      "name": "Fuze",
+      "primary": "AK-12: Magnified scope; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "PMM or GSH: Muzzle brake",
+      "gadget": "Hard breach charge"
+    },
+    {
+      "name": "Blitz",
+      "primary": "Shield: No primary attachments",
+      "alternative": "-",
+      "secondary": "P12: muzzle brake",
+      "gadget": "Smoke grenades"
+    },
+    {
+      "name": "IQ",
+      "primary": "Commando: Magnified scope; flash hider; vertical grip",
+      "alternative": "G8: Magnified scope; compensator; vertical grip",
+      "secondary": "P12: suppressor or muzzle brake",
+      "gadget": "Frag grenades"
+    },
+    {
+      "name": "Buck",
+      "primary": "C8-SFW: Magnified scope; flash hider",
+      "alternative": "CAMRS: Magnified scope; muzzle brake",
+      "secondary": "MK1: Muzzle brake",
+      "gadget": "Flashbangs"
+    },
+    {
+      "name": "Blackbeard",
+      "primary": "MK17 CQB: Magnified scope; compensator",
+      "alternative": "MK17 CQB fast ADS: No sight; compensator",
+      "secondary": "-",
+      "gadget": "Frag grenades"
+    },
+    {
+      "name": "Capit\u00e3o",
+      "primary": "Para-308: Magnified scope; extended barrel; vertical grip",
+      "alternative": "LMG: Compensator; vertical grip",
+      "secondary": "DMR: Magnified scope; muzzle brake; horizontal grip",
+      "gadget": "GONNE-6"
+    },
+    {
+      "name": "Hard breach",
+      "primary": "Hibana",
+      "alternative": "Type-89: Magnified scope; compensator; vertical grip",
+      "secondary": "DMR: Magnified scope; muzzle brake; horizontal grip",
+      "gadget": "Supernova: iron sights; laser"
+    },
+    {
+      "name": "Bearing-9: Holo; flash hider; laser",
+      "primary": "Flashbangs",
+      "alternative": "Jackal",
+      "secondary": "C7E: Magnified scope; flash hider; vertical grip",
+      "gadget": "PDW9: Magnified scope; flash hider; vertical grip"
+    },
+    {
+      "name": "ITA12S: Iron sight; laser",
+      "primary": "Smoke grenades",
+      "alternative": "Ying",
+      "secondary": "T-95 LSW: Magnified scope; flash hider; horizontal grip",
+      "gadget": "Shotgun: Iron sights; laser"
+    },
+    {
+      "name": "Reaper: Muzzle brake",
+      "primary": "Smoke grenades",
+      "alternative": "Zofia",
+      "secondary": "M762: Magnified scope; flash hider; vertical grip",
+      "gadget": "-"
+    },
+    {
+      "name": "RG15: Muzzle brake",
+      "primary": "Claymores",
+      "alternative": "Dokkaebi",
+      "secondary": "MK14 EBR: Magnified scope; muzzle brake; horizontal grip",
+      "gadget": "-"
+    },
+    {
+      "name": "SMG-12: 1x / Holo; vertical grip; laser",
+      "primary": "Flashbangs",
+      "alternative": "Lion",
+      "secondary": "417: Magnified scope; muzzle brake; horizontal grip",
+      "gadget": "V308: Magnified scope; flash hider; vertical grip"
+    },
+    {
+      "name": "P9: Muzzle brake",
+      "primary": "Frag grenades",
+      "alternative": "Finka",
+      "secondary": "LMG: Magnified scope; vertical grip",
+      "gadget": "Spear: Magnified scope; suppressor; vertical grip"
+    },
+    {
+      "name": "PMM: Muzzle brake",
+      "primary": "Frag grenades",
+      "alternative": "Maverick",
+      "secondary": "M4: Magnified scope; flash hider; vertical grip",
+      "gadget": "AR-15: Magnified scope; muzzle brake; horizontal grip; laser"
+    },
+    {
+      "name": "Reaper: Muzzle brake",
+      "primary": "Flashbangs",
+      "alternative": "Nomad",
+      "secondary": "ARX: Magnified scope; muzzle brake; vertical grip",
+      "gadget": "AK-74M: Holo A; flash hider; vertical grip; laser"
+    },
+    {
+      "name": ".44 MAG Semi-Auto: No laser",
+      "primary": "Flashbangs",
+      "alternative": "Gridlock",
+      "secondary": "F90: Magnified scope; flash hider; vertical grip",
+      "gadget": "-"
+    },
+    {
+      "name": "Super Shorty",
+      "primary": "Frag grenades",
+      "alternative": "N\u00f8kk",
+      "secondary": "FMG-9: Magnified scope/Holo; flash hider",
+      "gadget": "DMR: Magnified scope/1.5x; muzzle brake; horizontal grip"
+    },
+    {
+      "name": "Shotgun: iron sights; no laser",
+      "primary": "Deagle / 5.7: No attachments",
+      "alternative": "EMPs",
+      "secondary": "Amaru",
+      "gadget": "G8: 1x/Holo; vertical grip; laser"
+    },
+    {
+      "name": "Supernova: Iron sights; no suppressor",
+      "primary": "SMG-11: 1x/Holo; muzzle brake",
+      "alternative": "Flashbangs",
+      "secondary": "Kali",
+      "gadget": "CSRX 300: No attachments"
+    },
+    {
+      "name": "-",
+      "primary": "SPSMG9",
+      "alternative": "Smoke grenades",
+      "secondary": "Iana",
+      "gadget": "ARX: Magnified scope; muzzle brake; vertical grip"
+    },
+    {
+      "name": "G36C: Magnified scope; flash hider; vertical grip; laser",
+      "primary": "GONNE-6",
+      "alternative": "EMPs",
+      "secondary": "Ace",
+      "gadget": "AK-12: Magnified scope; flash hider; vertical grip"
+    },
+    {
+      "name": "-",
+      "primary": "P9: Muzzle brake",
+      "alternative": "Claymores",
+      "secondary": "Zero",
+      "gadget": "MP7: Magnified scope; flash hider; laser"
+    },
+    {
+      "name": "SC3000K: Magnified scope; flash hider; vertical grip",
+      "primary": "GONNE-6",
+      "alternative": "Hard breach charges",
+      "secondary": "Flores",
+      "gadget": "AR33: Magnified scope; flash hider; vertical grip"
+    },
+    {
+      "name": "SR-25: Magnified scope; muzzle brake; horizontal grip; no laser",
+      "primary": "GSH-18: Muzzle brake",
+      "alternative": "Flashbangs",
+      "secondary": "Osa",
+      "gadget": "556XI: Magnified scope; flash hider; vertical grip"
+    },
+    {
+      "name": "PDW9: 1x; flash hider; vertical grip; laser",
+      "primary": "PMM: Muzzle brake",
+      "alternative": "Frag grenades",
+      "secondary": "Sens",
+      "gadget": "POF-9: Magnified scope; flash hider; vertical grip; laser"
+    },
+    {
+      "name": "417: Magnified scope; muzzle brake; angled grip; laser",
+      "primary": "SDP 9MM: Muzzle brake",
+      "alternative": "Frag grenades",
+      "secondary": "Grim",
+      "gadget": "552 Commando: Magnified scope; flash hider; vertical grip; laser"
+    },
+    {
+      "name": "-",
+      "primary": "Bailiff",
+      "alternative": "Claymores",
+      "secondary": "Brava",
+      "gadget": "Para-308: Extended barrel"
+    },
+    {
+      "name": "CAMRS: Magnified scope; muzzle brake; horizontal grip; laser",
+      "primary": "Super Shorty",
+      "alternative": "Smoke grenades",
+      "secondary": "Ram",
+      "gadget": "R4-C: Magnified scope; flash hider; vertical grip; no laser"
+    },
+    {
+      "name": "-",
+      "primary": "MK19MM: Muzzle brake",
+      "alternative": "Flashbangs",
+      "secondary": "Deimos",
+      "gadget": "AK-74M: Magnified scope; flash hider; grip; no laser"
+    },
+    {
+      "name": "Shotgun: Iron sights; laser",
+      "primary": "Vendetta",
+      "alternative": "Frag grenades",
+      "secondary": "Rauora",
+      "gadget": "417: Magnified scope; muzzle brake; horizontal grip; laser"
+    },
+    {
+      "name": "LMG: Magnified scope; flash hider; vertical grip",
+      "primary": "Reaper: Suppressor",
+      "alternative": "Smoke grenades",
+      "secondary": "Solid Snake",
+      "gadget": "F2: Magnified scope; flash hider; vertical grip, laser"
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Sentry",
+      "primary": "TCSG: Magnified scope; suppressor; vertical grip",
+      "alternative": "Commando 9: 1x; compensator; horizontal grip",
+      "secondary": "Super Shorty",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Smoke",
+      "primary": "Shotgun: Iron sights",
+      "alternative": "-",
+      "secondary": "SMG-11: 1x / Holo; muzzle brake; vertical grip",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Mute",
+      "primary": "Shotgun: Iron sights",
+      "alternative": "-",
+      "secondary": "SMG-11: 1x / Holo; muzzle brake; vertical grip",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Castle",
+      "primary": "UMP45: Magnified scope/Holo; extended barrel; horizontal grip",
+      "alternative": "-",
+      "secondary": "Super Shorty",
+      "gadget": "Proximity alarms"
+    },
+    {
+      "name": "Pulse",
+      "primary": "UMP45: Holo; extended barrel; horizontal grip",
+      "alternative": "Shotgun",
+      "secondary": "Reaper: Muzzle brake",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Doc",
+      "primary": "MP5: Holo; flash hider; vertical grip",
+      "alternative": "P90: 1x; suppressor",
+      "secondary": "Bailiff",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Rook",
+      "primary": "MP5: Holo; extended barrel; vertical grip",
+      "alternative": "P90: 1x; extended barrel",
+      "secondary": "Reaper: Muzzle brake",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Kapkan",
+      "primary": "9x19VSN: 1x/Holo; compensator; vertical grip",
+      "alternative": "-",
+      "secondary": "PMM: Muzzle brake",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Tachanka",
+      "primary": "DP27 LMG: 1x sight",
+      "alternative": "9x19VSN: Magnified scope; compensator",
+      "secondary": "Bearing-9: Holo/1x; flash hider",
+      "gadget": "Deployable shield"
+    },
+    {
+      "name": "J\u00e4ger",
+      "primary": "416-C: 1x/Holo; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "P10C: Muzzle brake",
+      "gadget": "Bulletproof camera"
+    },
+    {
+      "name": "Bandit",
+      "primary": "MP7: 1x or iron sight; flash hider",
+      "alternative": "MP7 stealth setup: Iron sight; suppressor",
+      "secondary": "Keratos: Muzzle brake",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Frost",
+      "primary": "9MM C1: Extended barrel; horizontal grip",
+      "alternative": "-",
+      "secondary": "ITA12S: Iron sights",
+      "gadget": "Deployable shield"
+    },
+    {
+      "name": "Valkyrie",
+      "primary": "MPX: 1x/Holo; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "Deagle: Muzzle brake",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Caveira",
+      "primary": "SPAS-15: Iron sights",
+      "alternative": "M12: Red Dot C; suppressor",
+      "secondary": "Luison",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Echo",
+      "primary": "MP5SD: Holo/1x; vertical grip",
+      "alternative": "Supernova: No suppressor",
+      "secondary": "Bearing-9: Holo/1x; flash hider",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Mira",
+      "primary": "Vector: Holo/1x; compensator; vertical grip",
+      "alternative": "-",
+      "secondary": "ITA12S: Iron sights",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Lesion",
+      "primary": "T-5 SMG: Holo/1x; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "Q-929: Muzzle brake",
+      "gadget": "Bulletproof camera"
+    },
+    {
+      "name": "Ela",
+      "primary": "Scorpion: 1x sight; compensator; vertical grip",
+      "alternative": "FO-12: Extended barrel",
+      "secondary": "RG15: Muzzle brake",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Vigil",
+      "primary": "K1A: 1x/Holo; flash hider; vertical grip",
+      "alternative": "BOSG: Magnified scope; horizontal grip",
+      "secondary": "SMG-12: 1x/Holo; vertical grip",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Maestro",
+      "primary": "ALDA: Holo/1x; flash hider; vertical grip",
+      "alternative": "ACS12: Magnified scope; horizontal grip",
+      "secondary": "Bailiff",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Alibi",
+      "primary": "Mx4 Storm: 1x/Red Dot C; flash hider; vertical grip",
+      "alternative": "ACS12: Horizontal grip",
+      "secondary": "Bailiff",
+      "gadget": "Proximity alarms"
+    },
+    {
+      "name": "Clash",
+      "primary": "Shield: No primary attachments",
+      "alternative": "-",
+      "secondary": "SPSMG9-style full-auto secondary: 1x; flash hider/extended barrel",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Kaid",
+      "primary": "TCSG: Magnified scope; suppressor; vertical grip",
+      "alternative": "TCSG unsuppressed setup: Magnified scope; vertical grip",
+      "secondary": "Revolver: No attachments",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Mozzie",
+      "primary": "P10 Roni: 1x; flash hider; angled grip",
+      "alternative": "Commando 9: 1x/Holo; flash hider; vertical grip",
+      "secondary": "Super Shorty: Iron sights",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Warden",
+      "primary": "M590: Iron sights",
+      "alternative": "MPX: Holo; flash hider; horizontal grip",
+      "secondary": "SMG-12: 1x/Red Dot; vertical grip",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Goyo",
+      "primary": "Vector: Holo/1x; compensator; vertical grip",
+      "alternative": "TCSG: Holo/Magnified scope; suppressor; vertical grip",
+      "secondary": "P229: Muzzle brake",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Wamai",
+      "primary": "MP5K: Holo/1x; flash hider",
+      "alternative": "MP5K extended setup: Holo/1x; extended barrel",
+      "secondary": "Keratos/Super Shorty",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Oryx",
+      "primary": "T-5 SMG: Holo/1x; flash hider; vertical grip",
+      "alternative": "T-5 extended setup: Holo/1x; extended barrel; vertical grip",
+      "secondary": "Bailiff",
+      "gadget": "Proximity alarms"
+    },
+    {
+      "name": "Melusi",
+      "primary": "MP5: Holo/Reflex; flash hider; vertical grip",
+      "alternative": "-",
+      "secondary": "ITA12S: Iron sights",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Aruni",
+      "primary": "MK14: Magnified scope; muzzle brake; horizontal grip",
+      "alternative": "-",
+      "secondary": "PRB92: Muzzle brake",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Thunderbird",
+      "primary": "Spear: 1x; flash hider; vertical grip",
+      "alternative": "SPAS-15: Iron sights",
+      "secondary": "Bearing-9: 1x; extended barrel",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Thorn",
+      "primary": "UZK50GI: Holo/1x; extended barrel; grip",
+      "alternative": "M870: Iron sights",
+      "secondary": "C75: Suppressor",
+      "gadget": "Barbed wire"
+    },
+    {
+      "name": "Azami",
+      "primary": "9x19VSN: Holo/1x; flash hider; vertical grip",
+      "alternative": "ACS12: Magnified scope",
+      "secondary": "Deagle: Muzzle brake",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Solis",
+      "primary": "P90: Holo/1x; flash hider or suppressor",
+      "alternative": "ITA12L: Iron sights",
+      "secondary": "SMG-11: Holo/1x; flash hider; vertical grip",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Fenrir",
+      "primary": "MP7: Holo/1x; flash hider",
+      "alternative": "MP7 iron sight setup: Iron sight; flash hider",
+      "secondary": "5.7 or Bailiff",
+      "gadget": "Bulletproof camera"
+    },
+    {
+      "name": "Tubar\u00e3o",
+      "primary": "AR-15: Magnified scope; muzzle brake; horizontal grip",
+      "alternative": "MPX: Holo; flash hider; horizontal grip",
+      "secondary": "P226: muzzle brake",
+      "gadget": "Nitro Cell"
+    },
+    {
+      "name": "Skop\u00f3s",
+      "primary": "PCX-33: 1x sight; extended barrel; vertical grip",
+      "alternative": "PCX-33 control setup: 1x sight; flash hider; horizontal grip",
+      "secondary": "P229: Muzzle brake",
+      "gadget": "Impacts"
+    },
+    {
+      "name": "Denari",
+      "primary": "FMG-9: 1x sight; flash hider",
+      "alternative": "FMG-9 suppressor setup: 1x sight; suppressor",
+      "secondary": "Glaive-12: horizontal grip",
+      "gadget": "Deployable shield"
+    }
+  ]
+}

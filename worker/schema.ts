@@ -39,6 +39,7 @@ export const schema = defineSchema({
   votes: {
     loadoutId: String,
     userId: String,
+    value: Number,
     permissions: {
       read: 'public',
       write: 'authenticated'

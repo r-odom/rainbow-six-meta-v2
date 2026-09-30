@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "deepspace dev start",
-    "deploy": "deepspace deploy"
+    "deploy": "deepspace deploy",
+    "seed": "python scripts/generate_seed.py --in operators_clean.json --out worker/seed.ts",
+    "parse": "python scripts/convert_raw_to_json.py --in loadouts_raw.txt --out operators_clean.json"
   },
   "dependencies": {
     "deepspace": "^0.1.0"
