@@ -1,0 +1,12 @@
+{
+  "name": "rainbow-six-meta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "deepspace dev start",
+    "deploy": "deepspace deploy"
+  },
+  "dependencies": {
+    "deepspace": "^0.1.0"
+  }
+}
