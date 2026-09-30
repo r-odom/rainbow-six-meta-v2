@@ -1,0 +1,797 @@
+attackers:
+Operator
+
+Primary
+
+Alternative
+
+Secondary
+
+Gadget
+
+Striker
+
+M4: Magnified scope; flash hider; vertical grip; laser
+
+SR-25: Magnified scope; muzzle brake; horizontal grip; no laser
+
+ITA12S: Iron sight; laser
+
+Frag grenades + flashbangs
+
+Sledge
+
+L85: Magnified scope; flash hider; vertical grip
+
+-
+
+Reaper: Muzzle brake
+
+Frag grenades
+
+Thatcher
+
+L85: Magnified scope; flash hider; vertical grip
+
+PMR DMR: Magnified scope; muzzle brake; horizontal grip; no laser
+
+P226: Muzzle brake
+
+Claymores
+
+Ash
+
+R4-C: Magnified scope; flash hider; vertical grip; laser
+
+-
+
+5.7: Muzzle brake
+
+Claymores
+
+Thermite
+
+556XI: Magnified scope; flash hider; vertical grip
+
+-
+
+ITA12S: Iron sight; laser
+
+Flashbangs
+
+Twitch
+
+417: Magnified scope; muzzle brake; horizontal grip; no laser
+
+F2: Magnified scope; flash hider; vertical grip; laser
+
+P9: Muzzle brake
+
+Smoke grenades
+
+Montagne
+
+Shield: No primary attachments
+
+-
+
+P9: Laser
+
+Smoke grenades
+
+Glaz
+
+OTs-03: Red Dot C/Thermal reticle; muzzle brake; vertical grip; no laser
+
+-
+
+Bearing-9: Holo; flash hider; laser
+
+Smoke grenades
+
+Fuze
+
+AK-12: Magnified scope; flash hider; vertical grip
+
+-
+
+PMM or GSH: Muzzle brake
+
+Hard breach charge
+
+Blitz
+
+Shield: No primary attachments
+
+-
+
+P12: muzzle brake; laser
+
+Smoke grenades
+
+IQ
+
+Commando: Magnified scope; flash hider; vertical grip; laser
+
+G8: Magnified scope; compensator; vertical grip; laser
+
+P12: suppressor or muzzle brake
+
+Frag grenades
+
+Buck
+
+C8-SFW: Magnified scope; flash hider; laser
+
+CAMRS: Magnified scope; muzzle brake; no laser
+
+MK1: Muzzle brake
+
+Flashbangs
+
+Blackbeard
+
+MK17 CQB: Magnified scope; compensator; laser
+
+MK17 CQB fast ADS: No sight; compensator; laser
+
+-
+
+Frag grenades
+
+Capitão
+
+Para-308: Magnified scope; extended barrel;  vertical grip
+
+LMG: Compensator; vertical grip; laser
+
+DMR: Magnified scope; muzzle brake; horizontal grip
+
+GONNE-6
+
+Hard breach
+
+Hibana
+
+Type-89: Magnified scope; compensator; vertical grip; laser
+
+DMR: Magnified scope; muzzle brake; horizontal grip; laser
+
+Supernova: iron sights; laser
+
+Bearing-9: Holo; flash hider; laser
+
+Flashbangs
+
+Jackal
+
+C7E: Magnified scope; flash hider; vertical grip; laser
+
+PDW9: Magnified scope; flash hider; vertical grip
+
+ITA12S: Iron sight; laser 
+
+Smoke grenades
+
+Ying
+
+T-95 LSW: Magnified scope; flash hider; horizontal grip; laser
+
+Shotgun: Iron sights; laser
+
+Reaper: Muzzle brake
+
+Smoke grenades
+
+Zofia
+
+M762: Magnified scope; flash hider; vertical grip
+
+-
+
+RG15: Muzzle brake
+
+Claymores
+
+Dokkaebi
+
+MK14 EBR: Magnified scope; muzzle brake; horizontal grip
+
+-
+
+SMG-12: 1x / Holo; vertical grip; laser
+
+Flashbangs
+
+Lion
+
+417: Magnified scope; muzzle brake; horizontal grip
+
+V308: Magnified scope; flash hider; vertical grip
+
+P9: Muzzle brake
+
+Frag grenades
+
+Finka
+
+LMG: Magnified scope; vertical grip; laser
+
+Spear: Magnified scope; suppressor; vertical grip
+
+PMM: Muzzle brake
+
+Frag grenades
+
+Maverick
+
+M4: Magnified scope; flash hider; vertical grip
+
+AR-15: Magnified scope; muzzle brake; horizontal grip; laser
+
+Reaper: Muzzle brake
+
+Flashbangs
+
+Nomad
+
+ARX: Magnified scope; muzzle brake; vertical grip
+
+AK-74M: Holo A; flash hider; vertical grip; laser
+
+.44 MAG Semi-Auto: No laser
+
+Flashbangs
+
+Gridlock
+
+F90: Magnified scope; flash hider; vertical grip
+
+-
+
+Super Shorty
+
+Frag grenades
+
+Nøkk
+
+FMG-9: Magnified scope/Holo; flash hider; no laser
+
+DMR: Magnified scope/1.5x; muzzle brake; horizontal grip
+
+Shotgun: iron sights; no laser
+
+Deagle / 5.7: No attachments
+
+EMPs
+
+Amaru
+
+G8: 1x/Holo; vertical grip; laser
+
+Supernova: Iron sights; no suppressor
+
+SMG-11: 1x/Holo; muzzle brake; laser
+
+Flashbangs
+
+Kali
+
+CSRX 300: No attachments
+
+-
+
+SPSMG9: Laser
+
+Smoke grenades
+
+Iana
+
+ARX: Magnified scope; muzzle brake; vertical grip
+
+G36C: Magnified scope; flash hider; vertical grip; laser
+
+GONNE-6
+
+EMPs
+
+Ace
+
+AK-12: Magnified scope; flash hider; vertical grip
+
+-
+
+P9: Muzzle brake
+
+Claymores
+
+Zero
+
+MP7: Magnified scope; flash hider; laser
+
+SC3000K: Magnified scope; flash hider; vertical grip
+
+GONNE-6
+
+Hard breach charges
+
+Flores
+
+AR33: Magnified scope; flash hider; vertical grip
+
+SR-25: Magnified scope; muzzle brake; horizontal grip; no laser
+
+GSH-18: Muzzle brake
+
+Flashbangs
+
+Osa
+
+556XI: Magnified scope; flash hider; vertical grip
+
+PDW9: 1x; flash hider; vertical grip; laser
+
+PMM: Muzzle brake
+
+Frag grenades
+
+Sens
+
+POF-9: Magnified scope; flash hider; vertical grip; laser
+
+417: Magnified scope; muzzle brake; angled grip; laser
+
+SDP 9MM: Muzzle brake
+
+Frag grenades
+
+Grim
+
+552 Commando: Magnified scope; flash hider; vertical grip; laser
+
+-
+
+Bailiff: No laser
+
+Claymores
+
+Brava
+
+Para-308: Extended barrel
+
+CAMRS: Magnified scope; muzzle brake; horizontal grip; laser
+
+Super Shorty
+
+Smoke grenades
+
+Ram
+
+R4-C: Magnified scope; flash hider; vertical grip; no laser
+
+-
+
+MK19MM: Muzzle brake
+
+Flashbangs
+
+Deimos
+
+AK-74M: Magnified scope; flash hider; grip; no laser
+
+Shotgun: Iron sights; laser
+
+Vendetta: No laser
+
+Frag grenades
+
+Rauora
+
+417: Magnified scope; muzzle brake; horizontal grip; laser
+
+LMG: Magnified scope; flash hider; vertical grip
+
+Reaper: Suppressor; laser
+
+Smoke grenades
+
+Solid Snake
+
+F2: Magnified scope; flash hider; vertical grip, laser
+
+-
+
+Tacit .45: Laser
+
+Frag grenades
+
+defenders:
+Operator
+
+Primary
+
+Alternative
+
+Secondary
+
+Gadget
+
+Sentry
+
+TCSG: Magnified scope; suppressor; vertical grip; no laser
+
+Commando 9: 1x; compensator; horizontal grip; laser
+
+Super Shorty
+
+Nitro Cell
+
+Smoke
+
+Shotgun: Iron sights; laser
+
+-
+
+SMG-11: 1x / Holo; muzzle brake; vertical grip; no laser
+
+Barbed wire
+
+Mute
+
+Shotgun: Iron sights; laser
+
+-
+
+SMG-11: 1x / Holo; muzzle brake; vertical grip; no laser
+
+Nitro Cell
+
+Castle
+
+UMP45: Magnified scope/Holo; extended barrel; horizontal grip; no laser
+
+-
+
+Super Shorty
+
+Proximity alarms
+
+Pulse
+
+UMP45: Holo; extended barrel; horizontal grip; laser
+
+Shotgun: Laser
+
+Reaper: Muzzle brake
+
+Nitro Cell
+
+Doc
+
+MP5: Holo; flash hider; vertical grip; laser
+
+P90: 1x; suppressor
+
+Bailiff
+
+Barbed wire
+
+Rook
+
+MP5: Holo; extended barrel; vertical grip; no laser
+
+P90: 1x; extended barrel; laser
+
+Reaper: Muzzle brake
+
+Nitro Cell
+
+Kapkan
+
+9x19VSN: 1x/Holo; compensator; vertical grip
+
+-
+
+PMM: Muzzle brake
+
+Barbed wire
+
+Tachanka
+
+DP27 LMG: 1x sight
+
+9x19VSN: Magnified scope; compensator
+
+Bearing-9: Holo/1x; flash hider; laser
+
+Deployable shield
+
+Jäger
+
+416-C: 1x/Holo; flash hider; vertical grip
+
+-
+
+P10C: Muzzle brake
+
+Bulletproof camera
+
+Bandit
+
+MP7: 1x or iron sight; flash hider
+
+MP7 stealth setup: Iron sight; suppressor
+
+Keratos: Muzzle brake
+
+Nitro Cell
+
+Frost
+
+9MM C1: Extended barrel; horizontal grip
+
+-
+
+ITA12S: Iron sights; laser
+
+Deployable shield
+
+Valkyrie
+
+MPX: 1x/Holo; flash hider; vertical grip
+
+-
+
+Deagle: Muzzle brake; laser
+
+Nitro Cell
+
+Caveira
+
+SPAS-15: Iron sights; laser
+
+M12: Red Dot C; suppressor
+
+Luison: No laser
+
+Impacts
+
+Echo
+
+MP5SD: Holo/1x; vertical grip; no laser
+
+Supernova: No suppressor
+
+Bearing-9: Holo/1x; flash hider; laser
+
+Impacts
+
+Mira
+
+Vector: Holo/1x; compensator; vertical grip
+
+-
+
+ITA12S: Iron sights; laser
+
+Nitro Cell
+
+Lesion
+
+T-5 SMG: Holo/1x; flash hider; vertical grip
+
+-
+
+Q-929: Muzzle brake; laser
+
+Bulletproof camera
+
+Ela
+
+Scorpion: 1x sight; compensator; vertical grip; laser
+
+FO-12: Extended barrel; laser
+
+RG15: Muzzle brake
+
+Impacts
+
+Vigil
+
+K1A: 1x/Holo; flash hider; vertical grip
+
+BOSG: Magnified scope; horizontal grip; laser
+
+SMG-12: 1x/Holo; vertical grip; laser
+
+Impacts
+
+Maestro
+
+ALDA: Holo/1x; flash hider; vertical grip
+
+ACS12: Magnified scope; horizontal grip; laser
+
+Bailiff: Laser
+
+Barbed wire
+
+Alibi
+
+Mx4 Storm: 1x/Red Dot C; flash hider; vertical grip
+
+ACS12: Horizontal grip; laser
+
+Bailiff
+
+Proximity alarms
+
+Clash
+
+Shield: No primary attachments
+
+-
+
+SPSMG9-style full-auto secondary: 1x; flash hider/extended barrel; laser
+
+Impacts
+
+Kaid
+
+TCSG: Magnified scope; suppressor; vertical grip
+
+TCSG unsuppressed setup: Magnified scope; vertical grip
+
+Revolver: No attachments
+
+Nitro Cell
+
+Mozzie
+
+P10 Roni: 1x; flash hider; angled grip; no laser
+
+Commando 9: 1x/Holo; flash hider; vertical grip; no laser
+
+Super Shorty: Iron sights; laser
+
+Nitro Cell
+
+Warden
+
+M590: Iron sights; laser
+
+MPX: Holo; flash hider; horizontal grip; laser
+
+SMG-12: 1x/Red Dot; vertical grip; no laser
+
+Nitro Cell
+
+Goyo
+
+Vector: Holo/1x; compensator; vertical grip
+
+TCSG: Holo/Magnified scope; suppressor; vertical grip; no laser
+
+P229: Muzzle brake; laser
+
+Impacts
+
+Wamai
+
+MP5K: Holo/1x; flash hider
+
+MP5K extended setup: Holo/1x; extended barrel
+
+Keratos/Super Shorty
+
+Impacts
+
+Oryx
+
+T-5 SMG: Holo/1x; flash hider; vertical grip
+
+T-5 extended setup: Holo/1x; extended barrel; vertical grip; laser
+
+Bailiff
+
+Proximity alarms
+
+Melusi
+
+MP5: Holo/Reflex; flash hider; vertical grip; laser
+
+-
+
+ITA12S: Iron sights; laser
+
+Impacts
+
+Aruni
+
+MK14: Magnified scope; muzzle brake; horizontal grip; no laser
+
+-
+
+PRB92: Muzzle brake; laser
+
+Barbed wire
+
+Thunderbird
+
+Spear: 1x; flash hider; vertical grip
+
+SPAS-15: Iron sights; no laser
+
+Bearing-9: 1x; extended barrel; laser
+
+Barbed wire
+
+Thorn
+
+UZK50GI: Holo/1x; extended barrel; grip; no laser
+
+M870: Iron sights; laser
+
+C75: Suppressor; no laser
+
+Barbed wire
+
+Azami
+
+9x19VSN: Holo/1x; flash hider; vertical grip; no laser
+
+ACS12: Magnified scope; laser
+
+Deagle: Muzzle brake; laser
+
+Impacts
+
+Solis
+
+P90: Holo/1x; flash hider or suppressor; laser
+
+ITA12L: Iron sights; laser
+
+SMG-11: Holo/1x; flash hider; vertical grip; laser
+
+Impacts
+
+Fenrir
+
+MP7: Holo/1x; flash hider
+
+MP7 iron sight setup: Iron sight; flash hider
+
+5.7 or Bailiff
+
+Bulletproof camera
+
+Tubarão
+
+AR-15: Magnified scope; muzzle brake; horizontal grip
+
+MPX: Holo; flash hider; horizontal grip; laser
+
+P226: muzzle brake; laser
+
+Nitro Cell
+
+Skopós
+
+PCX-33: 1x sight; extended barrel; vertical grip
+
+PCX-33 control setup: 1x sight; flash hider; horizontal grip; no laser
+
+P229: Muzzle brake
+
+Impacts
+
+Denari
+
+FMG-9: 1x sight; flash hider; laser
+
+FMG-9 suppressor setup: 1x sight; suppressor; no laser
+
+Glaive-12: horizontal grip
+
+Deployable shield
