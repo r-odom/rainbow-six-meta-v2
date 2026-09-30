@@ -1,0 +1,21 @@
+{
+  "attackers": [
+    {
+      "id": "striker",
+      "name": "Striker",
+      "primary": {"weapon": "M4", "attachments": "Magnified scope; flash hider; vertical grip"},
+      "alternative": {"weapon": "SR-25", "attachments": "Magnified scope; muzzle brake; horizontal grip"},
+      "secondary": {"weapon": "ITA12S", "attachments": "Iron sight"},
+      "gadgets": ["Frag grenades","Flashbangs"]
+    },
+    {
+      "id": "sledge",
+      "name": "Sledge",
+      "primary": {"weapon": "L85", "attachments": "Magnified scope; flash hider; vertical grip"},
+      "alternative": null,
+      "secondary": {"weapon": "Reaper", "attachments": "Muzzle brake"},
+      "gadgets": ["Frag grenades"]
+    }
+  ],
+  "defenders": []
+}
