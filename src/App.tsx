@@ -3,12 +3,13 @@ import { DeepSpaceProvider, useAuth, LoginButton } from 'deepspace';
 import './styles/global.css';
 import OpRecommender from './components/OpRecommender';
 import OperatorBrowser from './components/OperatorBrowser';
-import LoadoutManager from './components/LoadoutManager';
+import OperatorDetail from './components/OperatorDetail';
+import MyLoadouts from './components/MyLoadouts';
 
 export default function App() {
   const { user } = useAuth();
-  const [tab, setTab] = useState<'recommend'|'operators'|'loadouts'>('recommend');
-  const [selectedOp, setSelectedOp] = useState('sledge');
+  const [tab, setTab] = useState<'recommender'|'loadouts'|'my'>('recommender');
+  const [selectedOp, setSelectedOp] = useState<string>('sledge');
 
   return (
     <DeepSpaceProvider>
@@ -19,7 +20,7 @@ export default function App() {
             {user ? (
               <>
                 <span className="badge">Welcome {user.name}</span>
-                <button className="btn" onClick={() => setTab('loadouts')}>My Loadouts</button>
+                <button className="btn" onClick={() => setTab('my')}>My Loadouts</button>
               </>
             ) : (
               <LoginButton />
@@ -29,9 +30,9 @@ export default function App() {
 
         <nav style={{ display:'flex', gap:8, marginBottom:20 }}>
           {[
-            ['recommend','Recommend Op'],
-            ['operators','Operators'],
-            ['loadouts','Community Loadouts']
+            ['recommender','Op Recommender'],
+            ['loadouts','Loadouts'],
+            ['my','Your Loadouts']
           ].map(([k,label]) => (
             <button
               key={k}
@@ -43,9 +44,14 @@ export default function App() {
           ))}
         </nav>
 
-        {tab==='recommend' && <OpRecommender onPick={(id)=>{setSelectedOp(id); setTab('operators');}} />}
-        {tab==='operators' && <OperatorBrowser selectedId={selectedOp} onSelect={setSelectedOp} />}
-        {tab==='loadouts' && <LoadoutManager operatorId={selectedOp} />}
+        {tab==='recommender' && <OpRecommender onPick={(id)=>{setSelectedOp(id); setTab('loadouts');}} />}
+        {tab==='loadouts' && (
+          <div className="grid">
+            <OperatorBrowser selectedId={selectedOp} onSelect={setSelectedOp} />
+            <OperatorDetail operatorId={selectedOp} />
+          </div>
+        )}
+        {tab==='my' && <MyLoadouts />}
       </div>
     </DeepSpaceProvider>
   );

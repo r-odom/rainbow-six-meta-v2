@@ -52,7 +52,9 @@ export default function OperatorBrowser({ selectedId, onSelect }: { selectedId?:
           <div className="hint">{op.id} • {op.category}</div>
           <div style={{marginTop:12}}>
             <div><strong>Primary:</strong> {op.bestLoadout.primary}</div>
+            <div className="hint">Attachments: {op.bestLoadout.primaryAttachments?.join(', ') || '—'}</div>
             <div><strong>Secondary:</strong> {op.bestLoadout.secondary || '—'}</div>
+            <div className="hint">Attachments: {op.bestLoadout.secondaryAttachments?.join(', ') || '—'}</div>
             <div><strong>Gadgets:</strong> {op.bestLoadout.gadgets.join(', ')}</div>
           </div>
           <div style={{display:'flex', gap:8, marginTop:12}}>
