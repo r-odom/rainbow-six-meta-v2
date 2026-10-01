@@ -7,7 +7,7 @@ import OperatorDetail from './components/OperatorDetail';
 import MyLoadouts from './components/MyLoadouts';
 
 export default function App() {
-  const { user } = useAuth();
+  const { user, signOut } = useAuth();
   const [tab, setTab] = useState<'recommender'|'loadouts'|'my'>('recommender');
   const [selectedOp, setSelectedOp] = useState<string>('sledge');
 
@@ -21,6 +21,7 @@ export default function App() {
               <>
                 <span className="badge">Welcome {user.name}</span>
                 <button className="btn" onClick={() => setTab('my')}>My Loadouts</button>
+                <button className="btn" onClick={() => signOut?.()}>Sign out</button>
               </>
             ) : (
               <LoginButton />
